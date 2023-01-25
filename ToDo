@@ -1,0 +1,4 @@
+# guru32
+git remote add origin https://github.com/owlweed/ToDo
+git remote -v
+git push -u origin master
