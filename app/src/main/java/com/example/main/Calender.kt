@@ -30,7 +30,8 @@ class Calender : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.calender)
+
 
         // UI값 생성
         calendarView=findViewById(R.id.calendarView)
@@ -146,4 +147,5 @@ class Calender : AppCompatActivity() {
             e.printStackTrace()
         }
     }
+
 }

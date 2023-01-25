@@ -7,67 +7,13 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/stopwatchbutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="43dp"
-        android:text="STOP WATCH"
-        app:layout_constraintBottom_toTopOf="@+id/calenderbutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bmibutton"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/foodbutton"
-        android:layout_width="90dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="138dp"
-        android:text="식단"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calenderbutton" />
-
-    <Button
-        android:id="@+id/todolistbutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginEnd="87dp"
-        android:layout_marginBottom="312dp"
-        android:text="TODO LIST"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/calenderbutton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bmibutton" />
-
-    <Button
-        android:id="@+id/bmibutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="87dp"
-        android:layout_marginBottom="43dp"
-        android:text="BMI           측정기"
-        app:layout_constraintBottom_toTopOf="@+id/todolistbutton"
-        app:layout_constraintEnd_toStartOf="@+id/stopwatchbutton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
         android:id="@+id/calenderbutton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="84dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="180dp"
         android:text="캘린더"
-        app:layout_constraintBottom_toTopOf="@+id/foodbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/todolistbutton"
-        app:layout_constraintTop_toBottomOf="@+id/stopwatchbutton" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
